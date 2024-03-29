@@ -1,0 +1,35 @@
+.btn{
+    color: var(--theme);
+    text-align: center;
+    width: 80%;
+    padding: 0.6rem !important;
+    background-color: var(--white);
+    border:1px solid var(--theme);
+    border-radius:0.25rem;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    margin: auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+   
+   
+
+}
+
+.btn:hover{
+    background-color: var(--theme);
+    color: var(--white);
+    transition: all 0.3s;
+}
+.blue{
+    background-color: var(--theme);
+    color:var(--white);
+}
+.blue:hover{
+    background-color: var(--white) !important;
+    color: var(--theme) !important;
+    transition: all 0.3s;
+}

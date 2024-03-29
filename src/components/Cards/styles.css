@@ -1,0 +1,35 @@
+.my-card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+    border-radius: 1rem;
+    width: 28vw;
+    min-width: 300px;
+  
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: "Montserrat",'sans-seriff';
+    height:auto;
+    
+}
+
+
+.ant-card-head-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.8rem 0.8rem;
+    
+    
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    width: 95%;
+}
+.my-card p{
+    margin: 0;
+    margin-inline: 3rem;
+}

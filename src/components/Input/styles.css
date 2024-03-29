@@ -1,0 +1,23 @@
+.input-tag{
+   border: none;
+   outline: none;
+   width: 90%;
+   border-bottom: 0.1rem solid var(--shadow-color);
+   font-size: 0.8rem;
+   padding-bottom: 10px;
+}
+.input-wrapper{
+    margin: 1rem;
+}
+.label{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0%;
+   
+}
+.input-tag:focus
+{
+    border-bottom: 0.1rem solid var(--black);
+}

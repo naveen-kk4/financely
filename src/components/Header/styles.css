@@ -1,0 +1,44 @@
+.navbar{
+    background-color: var(--theme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    height: 10vh;
+    z-index: 1000;
+    min-width: 670px;
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white);
+    margin-inline: 10px;
+    letter-spacing: 3px;
+}
+
+
+.logout{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--white);
+    margin-inline: 10px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.logout:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: all linear 0.3s;
+}
+.logout-wrapper{
+    display: flex;
+    align-items: center;
+}
+.logout-wrapper>img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}

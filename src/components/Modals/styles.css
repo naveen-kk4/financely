@@ -1,0 +1,13 @@
+
+
+.custom-input{
+    height:50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--shadow-color);
+}
+
+
+.select-input-2{
+    height:50px;
+}

@@ -1,0 +1,76 @@
+.input-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+
+.input-flex input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+}
+
+.input-flex input:focus{
+    outline: none;
+}
+
+.search-select-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 90vw;
+    min-width: 670px;
+}
+
+.my-table>div{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.my-table h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.exp-imp-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 400px; 
+}
+
+.select-input{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 0.5rem !important;
+    outline: none;
+}
+
+.select-input>div{
+    border: 0px solid var(--white) !important;
+}
+
+.ant-table-tbody{
+    font-size: 1rem;
+    font-weight: 350;
+}
+
+.action-tag:hover{
+    cursor: pointer;
+}
+.filter-options{
+    display: flex;
+    align-items: center;
+}
