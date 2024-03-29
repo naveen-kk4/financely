@@ -17,7 +17,7 @@ const AddIncomeModal = ({isIncomeModaleVisible,handleIncomeCancel,onFinish , upd
       }
     }, [updateIncome]);
      return(
-      <Modal style={{fontWeight:"bold"}} className="modale-style" title={Object.entries(updateIncome).length==0?"Add Income" : "Update Income"} open={isIncomeModaleVisible} onCancel={handleIncomeCancel} footer={null}>
+      <Modal   className="modale-style" title={Object.entries(updateIncome).length==0?"Add Income" : "Update Income"} open={isIncomeModaleVisible} onCancel={handleIncomeCancel} footer={null}>
          <Form form={form} layout="vertical" onFinish={(values)=>{
             onFinish(values,"income");
             form.resetFields();

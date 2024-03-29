@@ -11,3 +11,13 @@
 .select-input-2{
     height:50px;
 }
+.modale-style{
+    font-weight: bold;
+}
+
+@media  screen and (min-width:450px) {
+    .modale-style{
+        margin-right: 0px;
+    }
+    
+}

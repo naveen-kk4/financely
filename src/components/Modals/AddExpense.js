@@ -13,7 +13,7 @@ const AddExpenseModal = ({isExpenseModaleVisible,handleExpenseCancel,onFinish,up
       }
     }, [updateExpense, form]);
      return(
-      <Modal style={{fontWeight:"bold"}} title={Object.keys(updateExpense).length > 0?"Update expense":"Add Expense"} open={isExpenseModaleVisible} onCancel={handleExpenseCancel} footer={null}>
+      <Modal className="modale-style" title={Object.keys(updateExpense).length > 0?"Update expense":"Add Expense"} open={isExpenseModaleVisible} onCancel={handleExpenseCancel} footer={null}>
          <Form form={form} layout="vertical" onFinish={(values)=>{
             onFinish(values,"expenses");
              form.resetFields();
