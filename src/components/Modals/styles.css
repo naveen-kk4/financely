@@ -13,6 +13,7 @@
 }
 .modale-style{
     font-weight: bold;
+    margin-inline: 30%;
 }
 
 @media  screen and (min-width:450px) {
